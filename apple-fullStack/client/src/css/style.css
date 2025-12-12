@@ -1,0 +1,665 @@
+/*header styleling*/
+
+img{
+  max-width: 100%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-wrapper{
+    background-color: black;
+    color: #fff;
+    
+  }
+
+  .header-wrapper .header-links-wrapper ul{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.header-links-wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+.header-wrapper .header-links-wrapper ul li {
+  list-style: none;
+  padding: 14px 0 8px;
+  opacity: 0.8;
+  height: 25px;
+
+}
+.header-links-wrapper ul li a{
+    text-decoration: none;
+    font-size: 0.75em;
+    font-weight: 200;
+    color: #fff;    
+}
+.header-wrapper .header-links-wrapper ul li:hover{
+  opacity: 1;
+}
+.logo-link, .search-link, .cart-link{
+  width: 18px;
+  display: block;
+}
+.header-wrapper .header-links-wrapper ul li.logo-link{
+  padding: 12px 0 10px;
+}
+.header-wrapper .header-links-wrapper ul li.search-link{
+  padding: 14px 0 8px;
+}
+.header-wrapper .header-links-wrapper ul li.cart-link{
+  padding: 12px 0 10px;
+}
+ /*footer styling */
+ .footer-wrapper{
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  font-size: .65em;
+  padding-left: 10px;
+  width: 100%; 
+ }
+ .upper-text-wrapper{
+  border-bottom: 1PX solid #d2d2d7;
+  padding: 17px 0 20px;
+  color: #86868b;
+  font-size: 15px;
+  width: 80%;
+  margin: 0 auto;
+
+ }
+ .upper-text-wrapper p a {
+  text-decoration: none;
+  color: #515154;
+
+ }
+ .upper-text-wrapper p a:hover{
+opacity: 1px;
+text-decoration: underline;
+ }
+ .footer-links-wrapper{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 20px 0px;
+  font-size: 15px;
+  width: 80%;
+  margin: 0 auto;
+ }
+ .footer-links-wrapper ul li a{
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 200px;
+  color:#515154;
+ }
+ .footer-links-wrapper ul li{
+  list-style: none;
+ }
+  .footer-links-wrapper ul li a:hover{
+  opacity: 1px;
+  text-decoration: underline;
+
+ }
+ .flag-wrapper p a{
+  text-decoration: none;
+  color: #515154;
+  font-size: 15px;
+ }
+ .flag-wrapper p a:hover{
+  opacity: 1px;
+  text-decoration: underline;
+ }
+  .flag-wrapper{
+  padding: 20px 0 20px;
+  width: 80%;
+  font-size: 15px;
+  margin: 0 auto;
+ }
+ .copyright-wrapper p a {
+  text-decoration: none;
+  color: #515154;
+  font-size: 14px;
+ }
+ .copyright-wrapper p a:hover{
+  opacity: 1px;
+  text-decoration: underline;
+ }
+ .copyright-wrapper{
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-pack: justify ;
+  border-top: 1PX solid #d2d2d7;
+  padding: 20px 0 20px;
+  font-size: 14px;
+  width: 80%;
+  margin: 0 auto;
+ }
+
+ /* main highlight section*/
+ .main-highlight-wrapper{
+  background-color: #fafafa;
+  padding: 25px 0 ;
+
+ 
+ }
+ .mac-discription{
+  text-align: center;
+  
+ }
+ .mac-discription a{
+  text-decoration: none;
+  font-size: 20px;
+ }
+ .mac-discription a:hover{
+  opacity: 1px;
+ }
+  .main-highlight-wrapper .mac-figure{
+    text-align: center;
+  
+ }
+ .model{
+  font-size: 20px;
+  font-weight: 300px;
+ }
+ .product-discription{
+  font-size: 30px;
+  font-weight: 300;
+ }
+
+ /*second highlight section*/
+ .iphone-wrapper{
+
+ background-image: url("../images/home/iphone11-pro-bg.jpg");
+
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+  color: #fff;
+	
+ }
+ .iphone-model{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 0;
+ }
+ .iphone-discription{
+  font-size: 20px;
+  font-weight: 400px;
+  padding: 5px 0;
+ }
+ .iphone-price{
+   font-size: 20px;
+  font-weight: 400px;
+  padding: 5px 0;
+ }
+ a{
+  text-decoration: none;
+  padding: 10px 0;
+  color: blue;
+  font-size: 20px;
+ }
+ a:hover{
+  color: #000;
+ }
+  /*third highlight section*/
+  .iphone11-wrapper{
+    background-image: url(../images/home/iphone11-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 65px 20px;
+    height: 580px;
+  }
+  .iphone11-model{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 0;
+  }
+  .iphone11-price{
+    font-size: 20px;
+    font-weight: 200px;
+    padding: 5px 0;
+  }
+  /*forth highlight section*/
+ .forth-highlight-section{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 580px;
+  max-width: 100%;
+ }
+
+ .forth-highlight-section .left-side-wrapper1{
+  background-image: url(../images/home/watch-series-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 1% 0.5% 0% 1%; 
+	  padding-top: 54px;
+    width: 48.5%;
+ }
+ .left-side-wrapper1 p{
+font-size: 20px;
+padding: 5px 0;
+ }
+ .forth-highlight-section .right-side-wrapper1{
+  background-image: url(../images/home/apple-card.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 1% 0.5% 0% 1%; 
+	  padding-top: 54px;
+    width: 51.5%; 
+ }
+  .right-side-wrapper1 p{
+font-size: 20px;
+padding: 5px 0;
+ }
+ /*fifth highlight section*/
+  .fifth-highlight-section{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 580px;
+  max-width: 100%;
+  
+ }
+  .fifth-highlight-section .left-side-wrapper2{
+  background-image: url(../images/home/apple-tv-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 1% 0.5% 0% 1%; 
+	  padding-top: 54px;
+    width: 48.5%;
+ }
+ .fifth-highlight-section .left-side-wrapper2 .servant-logo{
+  padding: 180px 0 ;
+ }
+  .fifth-highlight-section .right-side-wrapper2{
+  background-image: url(../images/home/air-pods.jpg);
+    background-position: bottom;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-color: #000;
+    text-align: center;
+    margin: 1% 0.5% 0% 1%; 
+	  padding-top: 54px;
+    width: 51.5%;
+    color: #fff; 
+ }
+  .right-side-wrapper2 p{
+font-size: 20px;
+padding: 5px 0;
+ }
+ .right-side-wrapper2 .airpods-model{
+  font-size: 30px;
+  font-weight: bold;
+ }
+ .sixth-highlight-section{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 580px;
+  width: 100%;
+ }
+ .left-side-wrapper3{
+  background-image: url(../images/home/macbook-pro.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fafafa;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0 1%;
+  padding: 65px 20px;
+ }
+ .left-side-wrapper3 p{
+  font-size: 20px;
+ }
+ .left-side-wrapper3 .macbook-model{
+  font-size: 30px;
+  font-weight: bold;
+ }
+  .right-side-wrapper3{
+  background-image: url(../images/home/new-ipad.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  text-align: center;
+  width: 51.5%;
+  margin: 1% 0.5% 0 1%;
+  padding: 65px 20px;
+ }
+ .right-side-wrapper3 p{
+  font-size: 20px;
+ }
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+/*const mysql = require("mysql");
+const express = require("express");
+const app = express();
+
+// ✅ Use a valid port for Express (NOT 3306, since that’s MySQL’s port)
+const PORT = 3001;
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
+
+// ✅ MySQL connection
+const mysqlConnection = mysql.createConnection({
+  host: "127.0.0.1",
+  user: "korsi",
+  password: "1234",
+  database: "korsi",
+  multipleStatements: true // optional, allows multiple SQL queries
+});
+
+// ✅ Connect to MySQL
+mysqlConnection.connect(err => {
+  if (err) {
+    console.error("❌ MySQL connection failed:", err);
+  } else {
+    console.log("✅ Connected to MySQL");
+  }
+});
+
+// ✅ Route: /install creates all 3 tables
+app.get("/install", (req, res) => {
+  const createProducts = `
+    CREATE TABLE IF NOT EXISTS products (
+      product_id INT PRIMARY KEY AUTO_INCREMENT,
+      product_url VARCHAR(255) NOT NULL,
+      product_name VARCHAR(255) NOT NULL
+    );
+  `;
+
+  const createProductsDescription = `
+    CREATE TABLE IF NOT EXISTS productsDescription (
+      description_id INT AUTO_INCREMENT PRIMARY KEY,
+      product_id INT NOT NULL,
+      product_brief_description TEXT NOT NULL,
+      product_description TEXT NOT NULL,
+      product_img VARCHAR(255) NOT NULL,
+      product_link VARCHAR(255) NOT NULL,
+      FOREIGN KEY (product_id) REFERENCES products(product_id)
+    );
+  `;
+
+  const createProductsPrice = `
+    CREATE TABLE IF NOT EXISTS productsPrice (
+      price_id INT AUTO_INCREMENT PRIMARY KEY,
+      product_id INT NOT NULL,
+      starting_price VARCHAR(255) NOT NULL,
+      price_range VARCHAR(255) NOT NULL,
+      FOREIGN KEY (product_id) REFERENCES products(product_id)
+    );
+  `;
+
+  // ✅ Execute queries sequentially
+  mysqlConnection.query(createProducts, err => {
+    if (err) return res.status(500).send("Error creating products table: " + err);
+    mysqlConnection.query(createProductsDescription, err => {
+      if (err) return res.status(500).send("Error creating productsDescription table: " + err);
+      mysqlConnection.query(createProductsPrice, err => {
+        if (err) return res.status(500).send("Error creating productsPrice table: " + err);
+        res.send("✅ All tables created successfully!");
+      });
+    });
+  });
+});
+*/
+
+/*please find out all the main points from this pdf and explain all of it in clear way
+Here’s a complete and clear explanation of all the main points from your PowerPoint file “Chapter 4 – Arduino UNO”:
+
+🧭 1. What is Arduino?
+
+Arduino is an open-source electronics platform based on easy-to-use hardware and software.
+
+It helps users (even beginners) design and build interactive electronic devices.
+
+It is built around a microcontroller — a small computer on a single chip — and programmed using the Arduino IDE (Integrated Development Environment), a simplified version of C++.
+
+Originally designed to help non-technical students create projects.
+
+Key benefit: Low-cost, flexible, and widely used for IoT, robotics, automation, and prototyping.
+
+⚙️ 2. Architecture of Arduino Uno
+
+The Arduino Uno is the most common and beginner-friendly board.
+
+It is based on the ATmega328P microcontroller.
+
+It includes:
+
+14 digital I/O pins (pins 0–13)
+
+6 analog input pins (A0–A5)
+
+1 USB connection
+
+1 power jack
+
+1 ICSP header
+
+1 reset button
+
+These components allow the board to be easily powered and programmed via USB or adapter.
+
+🔩 3. Hardware Components
+Component	Function
+Microcontroller (ATmega328P)	Brain of Arduino – executes uploaded code.
+Digital Pins (0–13)	Used for digital input/output (0 or 1). Controlled via pinMode(), digitalRead(), digitalWrite().
+Analog Pins (A0–A5)	Read analog signals (variable values).
+Power Pins	Includes 3.3V, 5V, GND, and Vin. Supply and ground for circuits.
+Reset Button	Restarts or resets the board’s program.
+USB Port	Used to upload code and power the board.
+Barrel Jack	External power supply connector.
+Voltage Regulator	Keeps voltage stable.
+Crystal Oscillator	Keeps track of timing and processor speed.
+TX/RX LEDs	Indicate transmission (TX) and reception (RX) during serial communication.
+🔌 4. Signals
+
+Analog Signals: Continuous values (e.g., sound, temperature).
+
+Digital Signals: Only 0 or 1 (on/off).
+
+PWM (Pulse Width Modulation) pins (~3, 5, 6, 9, 10, 11) simulate analog output.
+
+🔧 5. Applications of Arduino
+
+3D Printing (control printing process)
+
+Robotics (movement, sensing)
+
+IoT (Internet of Things) (smart devices)
+
+DIY & Maker Projects (creative automation)
+
+Examples: Traffic light controllers, laser turrets, retro gaming, etc.
+
+🧱 6. Components Used with Arduino
+Component	Description
+Breadboard	For testing circuits without soldering.
+LEDs	Emit light; used as indicators.
+Resistors	Limit current to protect components.
+Jumper Wires	Connect components.
+Sensors	Measure physical properties (e.g., temperature).
+Actuators	Convert energy into motion (e.g., motors, pumps).
+💻 7. Arduino IDE (Integrated Development Environment)
+
+IDE = Software to write and upload code (sketches) to Arduino.
+
+Works on Windows, macOS, and Linux.
+
+Code files end with .ino.
+
+IDE Toolbar includes:
+
+🆕 New – create new sketch
+
+📂 Open – open existing code
+
+💾 Save – save sketch
+
+✅ Verify – check for errors
+
+⬆️ Upload – send code to board
+
+🔍 Serial Monitor – display communication with board
+
+🧩 8. Arduino Program Structure
+
+Every Arduino program (called a sketch) has two main parts:
+
+void setup()
+
+Runs once at startup.
+
+Used to initialize pins, variables, libraries.
+
+void setup() {
+  pinMode(13, OUTPUT);
+}
+
+
+void loop()
+
+Runs repeatedly.
+
+Used to control the board continuously.
+
+void loop() {
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
+}
+
+💡 9. Common Arduino Functions
+Function	Purpose	Example
+pinMode(pin, mode)	Set pin as INPUT or OUTPUT	pinMode(13, OUTPUT);
+digitalWrite(pin, value)	Send HIGH or LOW to a pin	digitalWrite(13, HIGH);
+digitalRead(pin)	Read input value (HIGH/LOW)	int val = digitalRead(7);
+delay(ms)	Pause for given time in milliseconds	delay(1000);
+analogRead(pin)	Read analog value (0–1023)	int val = analogRead(A0);
+analogWrite(pin, value)	Write analog-like PWM signal (0–255)	analogWrite(9, 128);
+💬 10. Serial Communication
+
+Used to communicate between Arduino and computer.
+
+Data sent as bits one after another (serially).
+
+Pins 0 (RX) and 1 (TX) handle communication.
+
+Common baud rate: 9600 bps (bits per second).
+
+Functions:
+
+Serial.begin(9600) – start serial connection
+
+Serial.print(value) – print to serial monitor
+
+Serial.println(value) – print with a new line
+
+Example:
+Serial.begin(9600);
+Serial.println("Hello Arduino");
+
+🔦 11. Example Project: LED Blink
+
+Components:
+
+Arduino Uno
+
+LED
+
+220Ω resistor
+
+Breadboard + jumper wires
+
+Code:
+
+int LEDpin = 13;
+
+void setup() {
+  pinMode(LEDpin, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LEDpin, HIGH);
+  delay(5000);
+  digitalWrite(LEDpin, LOW);
+  delay(2000);
+}
+
+
+Explanation:
+LED stays ON for 5 seconds and OFF for 2 seconds repeatedly.
+
+🔘 12. Example Project: Push Button with LED
+
+Goal: LED turns ON when button pressed, OFF otherwise.
+
+Code:
+
+const int buttonPin = 7;
+const int ledPin = 8;
+int buttonState = 0;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
+}
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+  if (buttonState == HIGH) {
+    digitalWrite(ledPin, HIGH);
+  } else {
+    digitalWrite(ledPin, LOW);
+  }
+}
+
+
+Explanation:
+
+Button acts as an input.
+
+LED acts as an output.
+
+When button is pressed (HIGH), LED turns on.
+
+🧠 13. Summary
+
+Arduino Uno = Beginner-friendly microcontroller board.
+
+Hardware = Digital/Analog pins, microcontroller, power & reset.
+
+Software (IDE) = Write & upload code using C/C++.
+
+Main Functions: setup(), loop(), pinMode(), digitalWrite(), delay().
+
+Communication: Serial monitor for debugging and interaction.
+
+Applications: Robotics, IoT, automation, and electronic prototyping.*/

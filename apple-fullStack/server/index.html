@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add iPhone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form action="http://localhost:3001/addiphone" method="POST" class="form-box">
+    <h1>Add iPhone</h1>
+
+    <input type="text" name="iphoneId" placeholder="iPhone URL" required>
+    <input type="text" name="imgPath" placeholder="Image Path" required>
+    <input type="text" name="iphoneLink" placeholder="iPhone Page Link" required>
+    <input type="text" name="iphoneTitle" placeholder="iPhone Title" required>
+    <input type="text" name="startprice" placeholder="Starting Price" required>
+    <input type="text" name="priceRange" placeholder="Price Range" required>
+
+    <textarea name="briefDescription" placeholder="Brief Description"></textarea>
+    <textarea name="fullDescription" placeholder="Full Description"></textarea>
+
+    <button type="submit">Add iPhone</button>
+  </form>
+
+</body>
+</html>
+

@@ -1,0 +1,206 @@
+/* main highlight section*/
+ .main-highlight-wrapper{
+  background-color: #fafafa;
+  padding: 25px 0 ;
+
+ 
+ }
+ .mac-discription{
+  text-align: center;
+  
+ }
+ .mac-discription a{
+  text-decoration: none;
+  font-size: 20px;
+ }
+ .mac-discription a:hover{
+  opacity: 1px;
+ }
+  .main-highlight-wrapper .mac-figure{
+    text-align: center;
+  
+ }
+ .model{
+  font-size: 20px;
+  font-weight: 300px;
+ }
+ .product-discription{
+  font-size: 30px;
+  font-weight: 300;
+ }
+
+ /*second highlight section*/
+ .iphone-wrapper{
+
+ background-image: url("../images/home/iphone11-pro-bg.jpg");
+
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+  color: #fff;
+	
+ }
+ .iphone-model{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 0;
+ }
+ .iphone-discription{
+  font-size: 20px;
+  font-weight: 400px;
+  padding: 5px 0;
+ }
+ .iphone-price{
+   font-size: 20px;
+  font-weight: 400px;
+  padding: 5px 0;
+ }
+ a{
+  text-decoration: none;
+  padding: 10px 0;
+  color: blue;
+  font-size: 20px;
+ }
+ a:hover{
+  color: #000;
+ }
+  /*third highlight section*/
+  .iphone11-wrapper{
+    background-image: url(../images/home/iphone11-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 65px 20px;
+    height: 580px;
+  }
+  .iphone11-model{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 0;
+  }
+  .iphone11-price{
+    font-size: 20px;
+    font-weight: 200px;
+    padding: 5px 0;
+  }
+  /*forth highlight section*/
+ .forth-highlight-section{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 580px;
+  max-width: 100%;
+ }
+
+ .forth-highlight-section .left-side-wrapper1{
+  background-image: url(../images/home/watch-series-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 1% 0.5% 0% 1%; 
+	  padding-top: 54px;
+    width: 48.5%;
+ }
+ .left-side-wrapper1 p{
+font-size: 20px;
+padding: 5px 0;
+ }
+ .forth-highlight-section .right-side-wrapper1{
+  background-image: url(../images/home/apple-card.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 1% 0.5% 0% 1%; 
+	  padding-top: 54px;
+    width: 51.5%; 
+ }
+  .right-side-wrapper1 p{
+font-size: 20px;
+padding: 5px 0;
+ }
+ /*fifth highlight section*/
+  .fifth-highlight-section{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 580px;
+  max-width: 100%;
+  
+ }
+  .fifth-highlight-section .left-side-wrapper2{
+  background-image: url(../images/home/apple-tv-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 1% 0.5% 0% 1%; 
+	  padding-top: 54px;
+    width: 48.5%;
+ }
+ .fifth-highlight-section .left-side-wrapper2 .servant-logo{
+  padding: 180px 0 ;
+ }
+  .fifth-highlight-section .right-side-wrapper2{
+  background-image: url(../images/home/air-pods.jpg);
+    background-position: bottom;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-color: #000;
+    text-align: center;
+    margin: 1% 0.5% 0% 1%; 
+	  padding-top: 54px;
+    width: 51.5%;
+    color: #fff; 
+ }
+  .right-side-wrapper2 p{
+font-size: 20px;
+padding: 5px 0;
+ }
+ .right-side-wrapper2 .airpods-model{
+  font-size: 30px;
+  font-weight: bold;
+ }
+ .sixth-highlight-section{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 580px;
+  width: 100%;
+ }
+ .left-side-wrapper3{
+  background-image: url(../images/home/macbook-pro.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fafafa;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0 1%;
+  padding: 65px 20px;
+ }
+ .left-side-wrapper3 p{
+  font-size: 20px;
+ }
+ .left-side-wrapper3 .macbook-model{
+  font-size: 30px;
+  font-weight: bold;
+ }
+  .right-side-wrapper3{
+  background-image: url(../images/home/new-ipad.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  text-align: center;
+  width: 51.5%;
+  margin: 1% 0.5% 0 1%;
+  padding: 65px 20px;
+ }
+ .right-side-wrapper3 p{
+  font-size: 20px;
+ }
